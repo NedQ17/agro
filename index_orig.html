@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Агро-Мастер Ставрополье | Ремонт и обслуживание сельхозтехники</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+
+
+<body class="russian-text">
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-tractor wheat-icon"></i> Агро-Мастер Ставрополье</a>
+        <nav>
+            <ul>
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#products">Продукция</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <!--<li><a href="#gallery">Галерея</a></li>-->
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="dark_parallax-section" style="background-image: url('images/bg1.webp');">
+        <div class="parallax-inner">
+            <h1>Агро-Мастер Ставрополье</h1>
+            <p class="subtitle">15 лет опыта в ремонте и обслуживании сельскохозяйственной техники. Качество, проверенное временем!</p>
+            <div class="btn-container">
+                <a href="#about" class="btn">Подробнее</a>
+                <a href="#contact" class="btn btn-secondary">Связаться с нами</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- About Section -->
+    <section id="about" class="parallax-section" style="background-image: url('images/bg3.webp');">
+    <div class="section-title">
+        <h2>О нашей компании</h2>
+        <div class="underline"></div>
+    </div>
+
+    <div class="about-content" style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+        <!-- Левая колонка -->
+        <div class="about-text" style="flex: 1; min-width: 300px;">
+            <p><strong><span style="font-size: 20px; color:var(--primary)">Агро-Мастер Ставрополье</span></strong> - специализированная компания, ориентированная на комплексное обслуживание агропромышленного сектора. Основные направления нашей деятельности включают ремонт и техническое обслуживание сельскохозяйственной техники, а также поставку оригинальных и сертифицированных запасных частей.</p>
+            <br>
+            <p>С момента основания и на протяжении <strong><span style=" color:var(--primary)">более 15 лет</span></strong> компания последовательно развивает свою инфраструктуру, техническую базу и кадровый потенциал. Это позволяет нам обеспечивать стабильное качество услуг и своевременное выполнение обязательств перед клиентами — как крупными агрохолдингами, так и небольшими фермерскими хозяйствами.</p>
+            <br>
+            <p>Мы гордимся тем, что являемся надежным партнером для наших клиентов, предлагая им не только высококачественные услуги, но и индивидуальный подход. Наша команда состоит из опытных специалистов, которые готовы решать любые задачи в области ремонта и обслуживания сельскохозяйственной техники.</p> 
+        </div>
+
+        <!-- Правая колонка с новыми карточками -->
+        <div class="custom-features" style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1rem;">
+            <div class="custom-feature-card">
+                <div class="custom-feature-header">Профессиональный ремонт</div>
+                <p>Осуществляем качественный ремонт всех видов сельскохозяйственной техники, производим технические работы широкого спектра разных уровней сложности.</p>
+                <div class="custom-feature-icon"><i class="fas fa-cogs"></i></div>
+            </div>
+            <div class="custom-feature-card">
+                <div class="custom-feature-header">Оригинальные запчасти</div>
+                <p>В нашем ассортименте только качественные оригинальные и сертифицированные запасные части от ведущих производителей.</p>
+                <div class="custom-feature-icon"><i class="fas fa-tools"></i></div>
+            </div>
+            <div class="custom-feature-card">
+                <div class="custom-feature-header">Обслуживание техники</div>
+                <p>Выполняем комплексное сезонное, а также срочное контрактное обслуживание сельскохозяйственной техники.</p>
+                <div class="custom-feature-icon"><i class="fas fa-tractor"></i></div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="parallax-section" style="background-image: url('images/bg4.webp');">  
+    <div class="section-title">
+        <h2>Наша продукция</h2>
+        <div class="underline"></div>
+    </div>
+    
+    <div class="features">
+        <div class="feature-card product-card">
+            <div class="product-image-wrapper">
+                <img src="images/dvig.png" alt="Запчасти для двигателей">
+            </div>
+            <div class="product-content-wrapper"> <h3>Детали для двигателей и<br>системы фильтрации</h3>
+                <p>Надежные компоненты для сердца вашей агротехники. Максимальная мощность и бесперебойая работа двигателя с нашими запчастями.</p>
+                <button class="add-to-message-btn" data-item="- Детали для двигателей и системы фильтрации">+</button>
+     
+            </div>
+        </div>
+        <div class="feature-card product-card">
+            <div class="product-image-wrapper">
+                <img src="images/transm.png" alt="Трансмиссионные узлы">
+            </div>
+            <div class="product-content-wrapper"> <h3>Детали для трансмиссии и<br>коробки передач</h3>
+                <p>Для плавной передачи мощности и эффективного движения. Наши запчасти гарантируют надежность и долговечность каждого узла.</p>
+                <button class="add-to-message-btn" data-item="- Детали для трансмиссии и коробки передач">+</button>
+            </div>
+            </div>
+        <div class="feature-card product-card">
+            <div class="product-image-wrapper">
+                <img src="images/hod.png" alt="Сельхозтехника">
+            </div>
+            <div class="product-content-wrapper"> <h3>Детали ходовой части <br>компонентов подвески</h3>
+                <p>Устойчивость и проходимость вашей техники в любых условиях. Прочные элементы ходовой части для уверенной работы на поле.</p>
+                <button class="add-to-message-btn" data-item="- Детали ходовой части компонентов подвески">+</button>
+            </div>
+        </div>
+        <div class="feature-card product-card">
+            <div class="product-image-wrapper">
+                <img src="images/topl.png" alt="Сельхозтехника">
+            </div>
+            <div class="product-content-wrapper"> <h3>Детали топливных систем и<br>электрооборудования</h3>
+                <p>Оптимальная подача топлива и стабильная работа электроники. От фильтров до датчиков – всё для эффективного запуска и контроля.</p>
+                <button class="add-to-message-btn" data-item="- Детали топливных систем и электрооборудования">+</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="parallax-section" style="background-image: url('images/bg2.webp');">
+        <div class="section-title">
+            <h2>Наши услуги</h2>
+            <div class="underline"></div>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <h3>Ремонт техники</h3>
+                
+                <p style="margin-top: 0.5rem; margin-bottom: 1.5rem;">Комплексный ремонт сельскохозяйственной техники любой сложности: полный спектр работ для всех видов агротехники. </p>
+                <button class="add-to-message-btn" data-item="- Ремонт техники">+</button>
+
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-oil-can"></i>
+                </div>
+                <h3>Техническое обслуживание</h3>
+                <p style="margin-top: 0.5rem; margin-bottom: 1.5rem;">Плановое техническое обслуживание сельхозтехники с заменой расходных материалов и полной системной диагностикой.</p>
+                <button class="add-to-message-btn" data-item="- Техническое обслуживание">+</button>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <h3>Диагностика</h3>
+                <p style="margin-top: 0.5rem; margin-bottom: 1.5rem;">Компьютерная диагностика двигателей, трансмиссий и других электронных систем сельскохозяйственной техники.</p>
+                <button class="add-to-message-btn" data-item="- Диагностика">+</button>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tractor"></i>
+                </div>
+                <h3>Выездной ремонт</h3>
+                <p style="margin-top: 0.5rem; margin-bottom:1.5rem;">Оперативный выезд технических специалистов для проведения диагностики и ремонта техники на месте ее эксплуатации</p>
+                <button class="add-to-message-btn" data-item="- Выездной ремонт">+</button>
+            </div>
+            <div style="display: flex; justify-content: center; margin-top: 0.5rem;">
+            <div class="custom-feature-card" style="max-width: 700px; width: 100%;">
+                <div class="custom-feature-header">Индивидуальные решения</div>
+                <button class="add-to-message-btn" data-item="- Решение специфической ситуации">+</button>
+                <p>Мы предлагаем комплексные решения, разработанные с учетом уникальных особенностей и потребностей каждого клиента. Наш подход заключается в глубоком анализе поставленных задач, что позволяет нам формировать персонализированные стратегии и предлагать оптимальные услуги.</p>
+                
+                <div class="custom-feature-icon"><i class="fas fa-cogs"></i></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Reviews Section -->
+    <section id="reviews" class="parallax-section" style="background-image: url(images/bg6.webp);">
+    <div class="reviews-container">
+        <div class="section-title">
+            <h2>Отзывы наших клиентов</h2>
+            <div class="underline"></div>
+            <p><span style="font-size: 1.5rem;">Более 500 довольных клиентов по всему Ставропольскому краю</span></p>
+        </div>
+        
+        <div class="review-stats">
+            <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Лет опыта</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Довольных клиентов</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Положительных отзывов</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Поддержка клиентов</div>
+            </div>
+        </div>
+        
+        <div class="reviews-carousel-wrapper">
+            <button class="carousel-button prev" aria-label="Предыдущий отзыв">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="reviews-carousel-viewport">
+                <div class="reviews-carousel">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Иван Петров" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <span class="initials-fallback">ИП</span>
+                            </div>
+                            <div class="review-author">
+                                <h4>Иван Петров</h4>
+                                <div class="review-date">15 мая 2023</div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>Мы сотрудничаем с Агро-Мастер Ставрополье уже более 5 лет и всегда получаем качественный ремонт нашей техники. Их специалисты быстро и профессионально устраняют любые неисправности. Особенно хочу отметить выездной ремонт - когда сломался комбайн во время уборки, они приехали в течение 2 часов и оперативно все починили. Рекомендую всем сельхозпроизводителям!</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Мария Смирнова" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <span class="initials-fallback">МС</span>
+                            </div>
+                            <div class="review-author">
+                                <h4>Мария Смирнова</h4>
+                                <div class="review-date">22 июня 2023</div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>Отличный сервис! Быстро отвечают, качественно выполняют работы. Заказывали запчасти на трактор - доставили точно в срок. Цены адекватные, персонал вежливый. Приятно работать с профессионалами. Будем обращаться еще!</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <img src="https://images.unsplash.com/photo-1552058545-ab3216049304?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Алексей Афанасьев" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <span class="initials-fallback">АА</span>
+                            </div>
+                            <div class="review-author">
+                                <h4>Алексей Афанасьев</h4>
+                                <div class="review-date">10 августа 2023</div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>Обращались по поводу ремонта сеялки. Сделали все на совесть, дали гарантию. Техника работает как часы. Очень довольны результатом. Рекомендую "Агро-Мастер Ставрополье" как надежного партнера!</p>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ольга Ковалева" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <span class="initials-fallback">ОК</span>
+                            </div>
+                            <div class="review-author">
+                                <h4>Ольга Ковалева</h4>
+                                <div class="review-date">5 сентября 2023</div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>Лучшие в своем деле! Быстро, качественно, с душой. Всегда готовы помочь и проконсультировать. Моя техника теперь в идеальном состоянии. Спасибо за профессионализм и оперативность!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-button next" aria-label="Следующий отзыв">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="parallax-section" style="background-image: url('images/bg5.webp');">
+    <div class="section-title">
+        <h2>Контакты</h2>
+        <div class="underline"></div>
+    </div>
+    <div class="features">
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Адрес</h3>
+            <p>Ставропольский край, г. Ставрополь, Промышленная 7-я, 3</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-phone"></i>
+            </div>
+            <h3>Телефон</h3>
+            <p>+7 (8652) 12-34-56</p>
+            <p>+7 (928) 123-45-67</p>
+            <br>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email</h3>
+            <p>info@agromaster-stavropol.ru</p>
+            <p>service@agromaster-stavropol.ru</p>
+        </div>
+    </div>
+    
+    <form style="max-width: 900px; margin: 30px auto; display: flex; gap: 2rem; flex-wrap: wrap;">
+        <div style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 23px;">
+            <input type="text" placeholder="Ваше имя" style="width: 100%; padding: 12px 15px; border-radius: 5px; border: 1px solid #ddd; font-size: 1rem;">
+            <input type="tel" placeholder="Ваш телефон" style="width: 100%; padding: 12px 15px; border-radius: 5px; border: 1px solid #ddd; font-size: 1rem;">
+            <input type="mail" placeholder="Ваша почта" style="width: 100%; padding: 12px 15px; border-radius: 5px; border: 1px solid #ddd; font-size: 1rem;">
+        </div>
+
+        <div style="flex: 2 1 400px; display: flex; flex-direction: column; gap: 20px;">
+            <textarea placeholder="Ваше сообщение" rows="7" style="width: 100%; padding: 12px 15px; border-radius: 5px; border: 1px solid #ddd; font-size: 1rem;"></textarea>
+        </div>
+        
+        <div style="width: 100%; text-align: center; margin-top: -5px;">
+            <a href="#" class="btn-msg">Отправить сообщение</a>
+        </div>
+    </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Агро-Мастер Ставрополье</h3>
+                <p>15 лет опыта в ремонте и обслуживании сельскохозяйственной техники.</p>
+                <br>
+                <p>г. Ставрополь, ул Промышленная 7-я, 3</p>
+                <!-- <div class="social-links">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+            </div>
+            <div class="footer-column">
+                <h3>Меню</h3>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#products">Продукция</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <!--<li><a href="#gallery">Галерея</a></li>-->
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Продукция</h3>
+                <ul>
+                    <li><a href="#products">Детали для двигателей</a></li>
+                    <li><a href="#products">Детали для трансмиссии</a></li>
+                    <li><a href="#products">Компоненты ходовой части</a></li>
+                    <li><a href="#products">Детали топливных систем</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Услуги</h3>
+                <ul>
+                    <li><a href="#services">Ремонт техники</a></li>
+                    <li><a href="#services">Техническое обслуживание</a></li>
+                    <li><a href="#services">Диагностика</a></li>
+                    <li><a href="#services">Выездной ремонт</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Агро-Мастер Ставрополье. Все права защищены.</p>
+        </div>
+    </footer>
+    
+    <script src='script.js'></script>
+
+    <button id="contact-float-btn" title="Перейти к контактам">
+    📩 Связаться
+    </button>
+
+</body>
+</html>
