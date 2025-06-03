@@ -360,12 +360,12 @@
             padding: 12px 30px;
             background-color: transparent;
             color: var(--primary);
+            cursor: pointer;
             text-decoration: none;
             border-radius: 30px;
             font-weight: 600;
             transition: all 0.3s ease;
             border: 2px solid var(--primary);
-            cursor: pointer;
             opacity: 0;
             transform: translateY(50px);
             animation: fadeInUp 1s ease forwards 1s;
