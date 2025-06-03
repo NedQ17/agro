@@ -365,6 +365,7 @@
             font-weight: 600;
             transition: all 0.3s ease;
             border: 2px solid var(--primary);
+            cursor: pointer;
             opacity: 0;
             transform: translateY(50px);
             animation: fadeInUp 1s ease forwards 1s;
